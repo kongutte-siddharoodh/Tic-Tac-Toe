@@ -110,4 +110,5 @@ const gameDraw = ()=> {
     winnerText.style.cssText = "display: flex; align-items: center; justify-content: center; background-color: rgb(36, 36, 36); border: none; border-radius: 10px; font-size: 1.5rem; font-weight: 900";
     winnerText.style.color = 'whitesmoke';
     winnerText.innerText = `Game Was A Draw`;
+    resetBtn.style.display = 'none';
 }
